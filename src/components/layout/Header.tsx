@@ -33,31 +33,35 @@ export function Header() {
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
         isScrolled
           ? 'bg-white/95 backdrop-blur-md shadow-md border-b border-slate-200 py-3'
-          : 'bg-white py-5 lg:py-6 shadow-sm border-b border-slate-100'
+          : 'bg-white py-5 lg:py-8 shadow-sm border-b border-slate-100'
       }`}
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between gap-4 md:gap-8">
-          <Link to="/" className="shrink-0 group flex items-center justify-center relative z-10">
-            <Logo
-              className={`transition-all duration-300 group-hover:scale-105 ${
+          {/* Logo and Sub-text Section */}
+          <div className="flex flex-col relative z-10 shrink-0">
+            <Link to="/" className="group inline-block">
+              <Logo
+                className={`transition-all duration-300 group-hover:scale-[1.02] origin-left ${
+                  isScrolled
+                    ? 'h-[60px] sm:h-[70px] md:h-[80px] w-auto max-w-[200px] sm:max-w-[250px] md:max-w-[300px]'
+                    : 'h-[100px] sm:h-[140px] md:h-[180px] lg:h-[220px] w-auto max-w-[280px] sm:max-w-[380px] md:max-w-[480px] lg:max-w-[600px]'
+                }`}
+              />
+            </Link>
+            <p
+              className={`text-slate-600 font-semibold tracking-tight transition-all duration-300 ${
                 isScrolled
-                  ? 'h-[60px] sm:h-[70px] md:h-[80px] w-auto max-w-[200px] sm:max-w-[250px] md:max-w-[300px]'
-                  : 'h-[100px] sm:h-[130px] md:h-[160px] lg:h-[190px] w-auto max-w-[250px] sm:max-w-[350px] md:max-w-[450px] lg:max-w-[550px]'
+                  ? 'text-[10px] sm:text-xs mt-1.5 max-w-[200px] sm:max-w-[250px] md:max-w-[300px]'
+                  : 'text-xs sm:text-sm md:text-base mt-3 sm:mt-4 max-w-[280px] sm:max-w-[380px] md:max-w-[480px] lg:max-w-[600px]'
               }`}
-            />
-          </Link>
+            >
+              Registro de Imóveis, Títulos e Documentos e Registro Civil de Pessoas Jurídicas
+            </p>
+          </div>
 
-          <div className="flex flex-col items-end flex-1 justify-center gap-4 lg:gap-6 min-w-0">
-            <div className="text-right">
-              <h1 className="text-base sm:text-lg md:text-2xl lg:text-3xl font-bold text-slate-900 uppercase tracking-tight leading-tight">
-                Serventia Registral <br className="sm:hidden" /> de Belo Jardim
-              </h1>
-              <p className="hidden sm:block text-xs md:text-sm text-slate-600 font-medium mt-1.5 leading-snug max-w-[500px] ml-auto">
-                Registro de Imóveis, Títulos e Documentos e Civil de Pessoas Jurídicas
-              </p>
-            </div>
-
+          {/* Navigation Section */}
+          <div className="flex items-center justify-end flex-1">
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center gap-8">
               <ul className="flex items-center gap-8">
@@ -71,7 +75,7 @@ export function Header() {
                     <li key={link.path}>
                       <Link
                         to={link.path}
-                        className={`text-sm font-semibold uppercase tracking-wider transition-colors hover:text-primary ${
+                        className={`text-sm font-bold uppercase tracking-wider transition-colors hover:text-primary ${
                           isActive
                             ? 'text-primary border-b-2 border-primary pb-1'
                             : 'text-slate-600'
@@ -85,29 +89,29 @@ export function Header() {
               </ul>
               <Button
                 asChild
-                className="rounded-full shadow-sm hover:shadow-md transition-all h-10 px-6 text-sm font-semibold"
+                className="rounded-full shadow-sm hover:shadow-md transition-all h-11 px-7 text-sm font-semibold"
               >
                 <a href="https://wa.me/5581999990000" target="_blank" rel="noopener noreferrer">
                   Agendar via WhatsApp
                 </a>
               </Button>
             </nav>
-          </div>
 
-          {/* Mobile Menu Button */}
-          <button
-            className="lg:hidden p-2 text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded-md transition-colors shrink-0 self-center"
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            aria-label="Alternar menu"
-          >
-            {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
-          </button>
+            {/* Mobile Menu Button */}
+            <button
+              className="lg:hidden p-2 text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded-md transition-colors"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              aria-label="Alternar menu"
+            >
+              {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
+            </button>
+          </div>
         </div>
       </div>
 
       {/* Mobile Navigation */}
       {isMobileMenuOpen && (
-        <div className="lg:hidden absolute top-full left-0 w-full bg-white border-b border-slate-200 shadow-xl animate-fade-in-down max-h-[calc(100vh-100px)] overflow-y-auto">
+        <div className="lg:hidden absolute top-full left-0 w-full bg-white border-b border-slate-200 shadow-xl animate-fade-in-down max-h-[calc(100vh-80px)] overflow-y-auto">
           <nav className="container mx-auto px-4 py-6 flex flex-col gap-6">
             <ul className="flex flex-col gap-2">
               {navLinks.map((link) => (

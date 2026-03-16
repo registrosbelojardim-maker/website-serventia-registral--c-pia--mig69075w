@@ -10,7 +10,7 @@ export function Logo({ className }: LogoProps) {
     <img
       src={logoImg}
       alt="Logo Oficial da Serventia Registral de Belo Jardim"
-      className={cn('object-contain pointer-events-none mix-blend-multiply', className)}
+      className={cn('object-contain object-left pointer-events-none mix-blend-multiply', className)}
     />
   )
 }
