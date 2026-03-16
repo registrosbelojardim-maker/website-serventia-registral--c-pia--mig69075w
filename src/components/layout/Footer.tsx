@@ -12,7 +12,9 @@ export function Footer() {
           {/* Brand & About */}
           <div className="space-y-6">
             <div className="flex items-center gap-4 bg-white/5 p-4 rounded-xl w-fit border border-white/10">
-              <Logo className="w-16 h-16 opacity-95" />
+              <div className="bg-white p-2 rounded-lg flex shrink-0 items-center justify-center">
+                <Logo className="h-12 w-auto mix-blend-normal" />
+              </div>
               <div className="flex flex-col">
                 <span className="font-bold text-white text-base uppercase leading-tight tracking-wider">
                   Serventia Registral

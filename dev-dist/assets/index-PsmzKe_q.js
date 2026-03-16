@@ -19431,17 +19431,12 @@ var logo_belo_jardim_page_0001_1_f1674_default = "/assets/logo-belo-jardim_page-
 //#endregion
 //#region src/components/Logo.tsx
 function Logo({ className }) {
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 		"data-uid": "src/components/Logo.tsx:10:5",
 		"data-prohibitions": "[editContent]",
-		className: cn$1("relative overflow-hidden flex-shrink-0 flex items-center justify-center rounded-full bg-white shadow-lg border-[3px] border-white", className),
-		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-			"data-uid": "src/components/Logo.tsx:17:7",
-			"data-prohibitions": "[editContent]",
-			src: logo_belo_jardim_page_0001_1_f1674_default,
-			alt: "Ícone Oficial da Serventia Registral de Belo Jardim",
-			className: "w-full h-full object-cover scale-[1.65] object-center pointer-events-none mix-blend-multiply"
-		})
+		src: logo_belo_jardim_page_0001_1_f1674_default,
+		alt: "Logo Oficial da Serventia Registral de Belo Jardim",
+		className: cn$1("object-contain pointer-events-none mix-blend-multiply", className)
 	});
 }
 //#endregion
@@ -19499,7 +19494,7 @@ function Header() {
 						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Logo, {
 							"data-uid": "src/components/layout/Header.tsx:42:13",
 							"data-prohibitions": "[editContent]",
-							className: `transition-all duration-300 group-hover:scale-105 ${isScrolled ? "w-[80px] h-[80px] sm:w-[90px] sm:h-[90px] md:w-[100px] md:h-[100px]" : "w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] md:w-[170px] md:h-[170px] lg:w-[190px] lg:h-[190px]"}`
+							className: `transition-all duration-300 group-hover:scale-105 ${isScrolled ? "h-[60px] sm:h-[70px] md:h-[80px] w-auto max-w-[200px] sm:max-w-[250px] md:max-w-[300px]" : "h-[100px] sm:h-[130px] md:h-[160px] lg:h-[190px] w-auto max-w-[250px] sm:max-w-[350px] md:max-w-[450px] lg:max-w-[550px]"}`
 						})
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
@@ -19651,43 +19646,48 @@ function Footer() {
 							"data-uid": "src/components/layout/Footer.tsx:14:13",
 							"data-prohibitions": "[]",
 							className: "flex items-center gap-4 bg-white/5 p-4 rounded-xl w-fit border border-white/10",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Logo, {
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 								"data-uid": "src/components/layout/Footer.tsx:15:15",
-								"data-prohibitions": "[editContent]",
-								className: "w-16 h-16 opacity-95"
+								"data-prohibitions": "[]",
+								className: "bg-white p-2 rounded-lg flex shrink-0 items-center justify-center",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Logo, {
+									"data-uid": "src/components/layout/Footer.tsx:16:17",
+									"data-prohibitions": "[editContent]",
+									className: "h-12 w-auto mix-blend-normal"
+								})
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								"data-uid": "src/components/layout/Footer.tsx:16:15",
+								"data-uid": "src/components/layout/Footer.tsx:18:15",
 								"data-prohibitions": "[]",
 								className: "flex flex-col",
 								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-									"data-uid": "src/components/layout/Footer.tsx:17:17",
+									"data-uid": "src/components/layout/Footer.tsx:19:17",
 									"data-prohibitions": "[]",
 									className: "font-bold text-white text-base uppercase leading-tight tracking-wider",
 									children: "Serventia Registral"
 								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-									"data-uid": "src/components/layout/Footer.tsx:20:17",
+									"data-uid": "src/components/layout/Footer.tsx:22:17",
 									"data-prohibitions": "[]",
 									className: "font-bold text-slate-300 text-sm uppercase leading-tight",
 									children: "de Belo Jardim"
 								})]
 							})]
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-							"data-uid": "src/components/layout/Footer.tsx:25:13",
+							"data-uid": "src/components/layout/Footer.tsx:27:13",
 							"data-prohibitions": "[]",
 							className: "text-sm leading-relaxed text-slate-400",
 							children: "A Serventia Registral de Belo Jardim atua prestando serviços essenciais de Registro de Imóveis, Registro de Títulos e Documentos e Registro Civil das Pessoas Jurídicas, garantindo segurança jurídica e eficácia em todos os atos praticados."
 						})]
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						"data-uid": "src/components/layout/Footer.tsx:33:11",
+						"data-uid": "src/components/layout/Footer.tsx:35:11",
 						"data-prohibitions": "[editContent]",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-							"data-uid": "src/components/layout/Footer.tsx:34:13",
+							"data-uid": "src/components/layout/Footer.tsx:36:13",
 							"data-prohibitions": "[]",
 							className: "text-white font-semibold text-lg mb-6",
 							children: "Links Rápidos"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
-							"data-uid": "src/components/layout/Footer.tsx:35:13",
+							"data-uid": "src/components/layout/Footer.tsx:37:13",
 							"data-prohibitions": "[editContent]",
 							className: "space-y-3",
 							children: [
@@ -19708,15 +19708,15 @@ function Footer() {
 									path: "/#localizacao"
 								}
 							].map((link) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", {
-								"data-uid": "src/components/layout/Footer.tsx:42:17",
+								"data-uid": "src/components/layout/Footer.tsx:44:17",
 								"data-prohibitions": "[editContent]",
 								children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
-									"data-uid": "src/components/layout/Footer.tsx:43:19",
+									"data-uid": "src/components/layout/Footer.tsx:45:19",
 									"data-prohibitions": "[editContent]",
 									to: link.path,
 									className: "text-sm hover:text-white transition-colors flex items-center gap-2 group",
 									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-										"data-uid": "src/components/layout/Footer.tsx:47:21",
+										"data-uid": "src/components/layout/Footer.tsx:49:21",
 										"data-prohibitions": "[editContent]",
 										className: "w-1 h-1 rounded-full bg-primary/50 group-hover:bg-primary transition-colors"
 									}), link.name]
@@ -19725,38 +19725,38 @@ function Footer() {
 						})]
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						"data-uid": "src/components/layout/Footer.tsx:56:11",
+						"data-uid": "src/components/layout/Footer.tsx:58:11",
 						"data-prohibitions": "[]",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-							"data-uid": "src/components/layout/Footer.tsx:57:13",
+							"data-uid": "src/components/layout/Footer.tsx:59:13",
 							"data-prohibitions": "[]",
 							className: "text-white font-semibold text-lg mb-6",
 							children: "Atendimento"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
-							"data-uid": "src/components/layout/Footer.tsx:58:13",
+							"data-uid": "src/components/layout/Footer.tsx:60:13",
 							"data-prohibitions": "[]",
 							className: "space-y-4 text-sm",
 							children: [
 								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
-									"data-uid": "src/components/layout/Footer.tsx:59:15",
+									"data-uid": "src/components/layout/Footer.tsx:61:15",
 									"data-prohibitions": "[]",
 									className: "flex items-start gap-3",
 									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(MapPin, {
-										"data-uid": "src/components/layout/Footer.tsx:60:17",
+										"data-uid": "src/components/layout/Footer.tsx:62:17",
 										"data-prohibitions": "[editContent]",
 										className: "w-5 h-5 text-primary shrink-0 mt-0.5"
 									}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-										"data-uid": "src/components/layout/Footer.tsx:61:17",
+										"data-uid": "src/components/layout/Footer.tsx:63:17",
 										"data-prohibitions": "[]",
 										children: [
 											"Av. Deputado José Mendonça Bezerra, 255",
 											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {
-												"data-uid": "src/components/layout/Footer.tsx:63:19",
+												"data-uid": "src/components/layout/Footer.tsx:65:19",
 												"data-prohibitions": "[editContent]"
 											}),
 											"Centro, Belo Jardim - PE",
 											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {
-												"data-uid": "src/components/layout/Footer.tsx:65:19",
+												"data-uid": "src/components/layout/Footer.tsx:67:19",
 												"data-prohibitions": "[editContent]"
 											}),
 											"CEP: 55150-000"
@@ -19764,43 +19764,43 @@ function Footer() {
 									})]
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
-									"data-uid": "src/components/layout/Footer.tsx:69:15",
+									"data-uid": "src/components/layout/Footer.tsx:71:15",
 									"data-prohibitions": "[]",
 									className: "flex items-center gap-3",
 									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Phone, {
-										"data-uid": "src/components/layout/Footer.tsx:70:17",
+										"data-uid": "src/components/layout/Footer.tsx:72:17",
 										"data-prohibitions": "[editContent]",
 										className: "w-5 h-5 text-primary shrink-0"
 									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-										"data-uid": "src/components/layout/Footer.tsx:71:17",
+										"data-uid": "src/components/layout/Footer.tsx:73:17",
 										"data-prohibitions": "[]",
 										children: "(81) 3726-0000 / (81) 99999-0000"
 									})]
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
-									"data-uid": "src/components/layout/Footer.tsx:73:15",
+									"data-uid": "src/components/layout/Footer.tsx:75:15",
 									"data-prohibitions": "[]",
 									className: "flex items-center gap-3",
 									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Mail, {
-										"data-uid": "src/components/layout/Footer.tsx:74:17",
+										"data-uid": "src/components/layout/Footer.tsx:76:17",
 										"data-prohibitions": "[editContent]",
 										className: "w-5 h-5 text-primary shrink-0"
 									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-										"data-uid": "src/components/layout/Footer.tsx:75:17",
+										"data-uid": "src/components/layout/Footer.tsx:77:17",
 										"data-prohibitions": "[]",
 										children: "contato@registrosbelojardim.com.br"
 									})]
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
-									"data-uid": "src/components/layout/Footer.tsx:77:15",
+									"data-uid": "src/components/layout/Footer.tsx:79:15",
 									"data-prohibitions": "[]",
 									className: "flex items-center gap-3",
 									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Clock, {
-										"data-uid": "src/components/layout/Footer.tsx:78:17",
+										"data-uid": "src/components/layout/Footer.tsx:80:17",
 										"data-prohibitions": "[editContent]",
 										className: "w-5 h-5 text-primary shrink-0"
 									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-										"data-uid": "src/components/layout/Footer.tsx:79:17",
+										"data-uid": "src/components/layout/Footer.tsx:81:17",
 										"data-prohibitions": "[]",
 										children: "Segunda a Sexta, 08:00 às 17:00"
 									})]
@@ -19809,31 +19809,31 @@ function Footer() {
 						})]
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						"data-uid": "src/components/layout/Footer.tsx:85:11",
+						"data-uid": "src/components/layout/Footer.tsx:87:11",
 						"data-prohibitions": "[]",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-							"data-uid": "src/components/layout/Footer.tsx:86:13",
+							"data-uid": "src/components/layout/Footer.tsx:88:13",
 							"data-prohibitions": "[]",
 							className: "text-white font-semibold text-lg mb-6",
 							children: "Segurança e Validade"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							"data-uid": "src/components/layout/Footer.tsx:87:13",
+							"data-uid": "src/components/layout/Footer.tsx:89:13",
 							"data-prohibitions": "[]",
 							className: "bg-slate-800/50 p-6 rounded-xl border border-slate-700/50 flex flex-col items-center text-center gap-4",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Shield, {
-								"data-uid": "src/components/layout/Footer.tsx:88:15",
+								"data-uid": "src/components/layout/Footer.tsx:90:15",
 								"data-prohibitions": "[editContent]",
 								className: "w-10 h-10 text-slate-400"
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								"data-uid": "src/components/layout/Footer.tsx:89:15",
+								"data-uid": "src/components/layout/Footer.tsx:91:15",
 								"data-prohibitions": "[]",
 								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									"data-uid": "src/components/layout/Footer.tsx:90:17",
+									"data-uid": "src/components/layout/Footer.tsx:92:17",
 									"data-prohibitions": "[]",
 									className: "text-sm font-medium text-white mb-1",
 									children: "Fiscalização"
 								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									"data-uid": "src/components/layout/Footer.tsx:91:17",
+									"data-uid": "src/components/layout/Footer.tsx:93:17",
 									"data-prohibitions": "[]",
 									className: "text-xs text-slate-400",
 									children: "Atos sob fiscalização do Poder Judiciário - Corregedoria Geral da Justiça de Pernambuco (TJPE)."
@@ -19843,11 +19843,11 @@ function Footer() {
 					})
 				]
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-				"data-uid": "src/components/layout/Footer.tsx:101:9",
+				"data-uid": "src/components/layout/Footer.tsx:103:9",
 				"data-prohibitions": "[editContent]",
 				className: "pt-8 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4",
 				children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-					"data-uid": "src/components/layout/Footer.tsx:102:11",
+					"data-uid": "src/components/layout/Footer.tsx:104:11",
 					"data-prohibitions": "[editContent]",
 					className: "text-xs text-slate-500 text-center md:text-left",
 					children: [
@@ -23080,4 +23080,4 @@ function App() {
 }));
 //#endregion
 
-//# sourceMappingURL=index-Cko8KDwW.js.map
+//# sourceMappingURL=index-PsmzKe_q.js.map

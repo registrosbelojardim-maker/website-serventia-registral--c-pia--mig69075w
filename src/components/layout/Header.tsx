@@ -42,8 +42,8 @@ export function Header() {
             <Logo
               className={`transition-all duration-300 group-hover:scale-105 ${
                 isScrolled
-                  ? 'w-[80px] h-[80px] sm:w-[90px] sm:h-[90px] md:w-[100px] md:h-[100px]'
-                  : 'w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] md:w-[170px] md:h-[170px] lg:w-[190px] lg:h-[190px]'
+                  ? 'h-[60px] sm:h-[70px] md:h-[80px] w-auto max-w-[200px] sm:max-w-[250px] md:max-w-[300px]'
+                  : 'h-[100px] sm:h-[130px] md:h-[160px] lg:h-[190px] w-auto max-w-[250px] sm:max-w-[350px] md:max-w-[450px] lg:max-w-[550px]'
               }`}
             />
           </Link>
