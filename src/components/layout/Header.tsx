@@ -39,24 +39,25 @@ export function Header() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between gap-4 md:gap-8">
           {/* Logo and Sub-text Section */}
-          <div className="flex flex-col relative z-10 shrink-0">
+          <div className="flex flex-col items-center relative z-10 shrink-0">
             <Link to="/" className="group inline-block">
               <Logo
-                className={`transition-all duration-300 group-hover:scale-[1.02] origin-left ${
+                className={`transition-all duration-300 group-hover:scale-[1.02] origin-center ${
                   isScrolled
-                    ? 'h-[60px] sm:h-[70px] md:h-[80px] w-auto max-w-[200px] sm:max-w-[250px] md:max-w-[300px]'
-                    : 'h-[100px] sm:h-[140px] md:h-[180px] lg:h-[220px] w-auto max-w-[280px] sm:max-w-[380px] md:max-w-[480px] lg:max-w-[600px]'
+                    ? 'h-[60px] sm:h-[75px] md:h-[90px] lg:h-[100px] w-auto max-w-[200px] sm:max-w-[260px] md:max-w-[320px] lg:max-w-[380px]'
+                    : 'h-[120px] sm:h-[160px] md:h-[200px] lg:h-[250px] w-auto max-w-[280px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-[620px]'
                 }`}
               />
             </Link>
             <p
-              className={`text-slate-600 font-semibold tracking-tight transition-all duration-300 ${
+              className={`text-slate-600 font-medium tracking-tight text-center transition-all duration-300 ${
                 isScrolled
-                  ? 'text-[10px] sm:text-xs mt-1.5 max-w-[200px] sm:max-w-[250px] md:max-w-[300px]'
-                  : 'text-xs sm:text-sm md:text-base mt-3 sm:mt-4 max-w-[280px] sm:max-w-[380px] md:max-w-[480px] lg:max-w-[600px]'
+                  ? 'text-[9px] sm:text-[10px] md:text-xs mt-1 max-w-[200px] sm:max-w-[260px] md:max-w-[320px] leading-tight'
+                  : 'text-[10px] sm:text-xs md:text-sm mt-2 sm:mt-3 max-w-[260px] sm:max-w-[380px] md:max-w-[480px] lg:max-w-[580px] leading-snug'
               }`}
             >
-              Registro de Imóveis, Títulos e Documentos e Registro Civil de Pessoas Jurídicas
+              Registro de Imóveis, Registro de Títulos e Documentos e Registro Civil das Pessoas
+              Jurídicas
             </p>
           </div>
 
@@ -89,7 +90,7 @@ export function Header() {
               </ul>
               <Button
                 asChild
-                className="rounded-full shadow-sm hover:shadow-md transition-all h-11 px-7 text-sm font-semibold"
+                className="rounded-full shadow-sm hover:shadow-md transition-all h-11 px-7 text-sm font-semibold shrink-0"
               >
                 <a href="https://wa.me/5581999990000" target="_blank" rel="noopener noreferrer">
                   Agendar via WhatsApp
@@ -99,7 +100,7 @@ export function Header() {
 
             {/* Mobile Menu Button */}
             <button
-              className="lg:hidden p-2 text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded-md transition-colors"
+              className="lg:hidden p-2 text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded-md transition-colors shrink-0"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               aria-label="Alternar menu"
             >

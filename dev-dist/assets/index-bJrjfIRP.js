@@ -19436,7 +19436,7 @@ function Logo({ className }) {
 		"data-prohibitions": "[editContent]",
 		src: logo_belo_jardim_page_0001_1_f1674_default,
 		alt: "Logo Oficial da Serventia Registral de Belo Jardim",
-		className: cn$1("object-contain object-left pointer-events-none mix-blend-multiply", className)
+		className: cn$1("object-contain object-center pointer-events-none mix-blend-multiply", className)
 	});
 }
 //#endregion
@@ -19488,7 +19488,7 @@ function Header() {
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					"data-uid": "src/components/layout/Header.tsx:42:11",
 					"data-prohibitions": "[editContent]",
-					className: "flex flex-col relative z-10 shrink-0",
+					className: "flex flex-col items-center relative z-10 shrink-0",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
 						"data-uid": "src/components/layout/Header.tsx:43:13",
 						"data-prohibitions": "[editContent]",
@@ -19497,33 +19497,33 @@ function Header() {
 						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Logo, {
 							"data-uid": "src/components/layout/Header.tsx:44:15",
 							"data-prohibitions": "[editContent]",
-							className: `transition-all duration-300 group-hover:scale-[1.02] origin-left ${isScrolled ? "h-[60px] sm:h-[70px] md:h-[80px] w-auto max-w-[200px] sm:max-w-[250px] md:max-w-[300px]" : "h-[100px] sm:h-[140px] md:h-[180px] lg:h-[220px] w-auto max-w-[280px] sm:max-w-[380px] md:max-w-[480px] lg:max-w-[600px]"}`
+							className: `transition-all duration-300 group-hover:scale-[1.02] origin-center ${isScrolled ? "h-[60px] sm:h-[75px] md:h-[90px] lg:h-[100px] w-auto max-w-[200px] sm:max-w-[260px] md:max-w-[320px] lg:max-w-[380px]" : "h-[120px] sm:h-[160px] md:h-[200px] lg:h-[250px] w-auto max-w-[280px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-[620px]"}`
 						})
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 						"data-uid": "src/components/layout/Header.tsx:52:13",
 						"data-prohibitions": "[editContent]",
-						className: `text-slate-600 font-semibold tracking-tight transition-all duration-300 ${isScrolled ? "text-[10px] sm:text-xs mt-1.5 max-w-[200px] sm:max-w-[250px] md:max-w-[300px]" : "text-xs sm:text-sm md:text-base mt-3 sm:mt-4 max-w-[280px] sm:max-w-[380px] md:max-w-[480px] lg:max-w-[600px]"}`,
-						children: "Registro de Imóveis, Títulos e Documentos e Registro Civil de Pessoas Jurídicas"
+						className: `text-slate-600 font-medium tracking-tight text-center transition-all duration-300 ${isScrolled ? "text-[9px] sm:text-[10px] md:text-xs mt-1 max-w-[200px] sm:max-w-[260px] md:max-w-[320px] leading-tight" : "text-[10px] sm:text-xs md:text-sm mt-2 sm:mt-3 max-w-[260px] sm:max-w-[380px] md:max-w-[480px] lg:max-w-[580px] leading-snug"}`,
+						children: "Registro de Imóveis, Registro de Títulos e Documentos e Registro Civil das Pessoas Jurídicas"
 					})]
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					"data-uid": "src/components/layout/Header.tsx:64:11",
+					"data-uid": "src/components/layout/Header.tsx:65:11",
 					"data-prohibitions": "[editContent]",
 					className: "flex items-center justify-end flex-1",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("nav", {
-						"data-uid": "src/components/layout/Header.tsx:66:13",
+						"data-uid": "src/components/layout/Header.tsx:67:13",
 						"data-prohibitions": "[editContent]",
 						className: "hidden lg:flex items-center gap-8",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
-							"data-uid": "src/components/layout/Header.tsx:67:15",
+							"data-uid": "src/components/layout/Header.tsx:68:15",
 							"data-prohibitions": "[editContent]",
 							className: "flex items-center gap-8",
 							children: navLinks.map((link) => {
 								const isActive = location.pathname === link.path.split("#")[0] && (link.path.includes("#") ? location.hash === "#" + link.path.split("#")[1] : location.hash === "");
 								return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", {
-									"data-uid": "src/components/layout/Header.tsx:75:21",
+									"data-uid": "src/components/layout/Header.tsx:76:21",
 									"data-prohibitions": "[editContent]",
 									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
-										"data-uid": "src/components/layout/Header.tsx:76:23",
+										"data-uid": "src/components/layout/Header.tsx:77:23",
 										"data-prohibitions": "[editContent]",
 										to: link.path,
 										className: `text-sm font-bold uppercase tracking-wider transition-colors hover:text-primary ${isActive ? "text-primary border-b-2 border-primary pb-1" : "text-slate-600"}`,
@@ -19532,12 +19532,12 @@ function Header() {
 								}, link.path);
 							})
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
-							"data-uid": "src/components/layout/Header.tsx:90:15",
+							"data-uid": "src/components/layout/Header.tsx:91:15",
 							"data-prohibitions": "[]",
 							asChild: true,
-							className: "rounded-full shadow-sm hover:shadow-md transition-all h-11 px-7 text-sm font-semibold",
+							className: "rounded-full shadow-sm hover:shadow-md transition-all h-11 px-7 text-sm font-semibold shrink-0",
 							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-								"data-uid": "src/components/layout/Header.tsx:94:17",
+								"data-uid": "src/components/layout/Header.tsx:95:17",
 								"data-prohibitions": "[]",
 								href: "https://wa.me/5581999990000",
 								target: "_blank",
@@ -19546,17 +19546,17 @@ function Header() {
 							})
 						})]
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-						"data-uid": "src/components/layout/Header.tsx:101:13",
+						"data-uid": "src/components/layout/Header.tsx:102:13",
 						"data-prohibitions": "[editContent]",
-						className: "lg:hidden p-2 text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded-md transition-colors",
+						className: "lg:hidden p-2 text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded-md transition-colors shrink-0",
 						onClick: () => setIsMobileMenuOpen(!isMobileMenuOpen),
 						"aria-label": "Alternar menu",
 						children: isMobileMenuOpen ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)(X, {
-							"data-uid": "src/components/layout/Header.tsx:106:35",
+							"data-uid": "src/components/layout/Header.tsx:107:35",
 							"data-prohibitions": "[editContent]",
 							size: 28
 						}) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Menu, {
-							"data-uid": "src/components/layout/Header.tsx:106:53",
+							"data-uid": "src/components/layout/Header.tsx:107:53",
 							"data-prohibitions": "[editContent]",
 							size: 28
 						})
@@ -19564,22 +19564,22 @@ function Header() {
 				})]
 			})
 		}), isMobileMenuOpen && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-			"data-uid": "src/components/layout/Header.tsx:114:9",
+			"data-uid": "src/components/layout/Header.tsx:115:9",
 			"data-prohibitions": "[editContent]",
 			className: "lg:hidden absolute top-full left-0 w-full bg-white border-b border-slate-200 shadow-xl animate-fade-in-down max-h-[calc(100vh-80px)] overflow-y-auto",
 			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("nav", {
-				"data-uid": "src/components/layout/Header.tsx:115:11",
+				"data-uid": "src/components/layout/Header.tsx:116:11",
 				"data-prohibitions": "[editContent]",
 				className: "container mx-auto px-4 py-6 flex flex-col gap-6",
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
-					"data-uid": "src/components/layout/Header.tsx:116:13",
+					"data-uid": "src/components/layout/Header.tsx:117:13",
 					"data-prohibitions": "[editContent]",
 					className: "flex flex-col gap-2",
 					children: navLinks.map((link) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", {
-						"data-uid": "src/components/layout/Header.tsx:118:17",
+						"data-uid": "src/components/layout/Header.tsx:119:17",
 						"data-prohibitions": "[editContent]",
 						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
-							"data-uid": "src/components/layout/Header.tsx:119:19",
+							"data-uid": "src/components/layout/Header.tsx:120:19",
 							"data-prohibitions": "[editContent]",
 							to: link.path,
 							className: "block py-3 px-4 rounded-xl text-sm font-bold uppercase tracking-wider text-slate-700 hover:bg-slate-50 hover:text-primary transition-colors",
@@ -19587,12 +19587,12 @@ function Header() {
 						})
 					}, link.path))
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
-					"data-uid": "src/components/layout/Header.tsx:128:13",
+					"data-uid": "src/components/layout/Header.tsx:129:13",
 					"data-prohibitions": "[]",
 					asChild: true,
 					className: "w-full h-12 text-base rounded-xl",
 					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-						"data-uid": "src/components/layout/Header.tsx:129:15",
+						"data-uid": "src/components/layout/Header.tsx:130:15",
 						"data-prohibitions": "[]",
 						href: "https://wa.me/5581999990000",
 						target: "_blank",
@@ -22267,7 +22267,7 @@ function Layout() {
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("main", {
 				"data-uid": "src/components/Layout.tsx:12:7",
 				"data-prohibitions": "[]",
-				className: "flex-1 mt-[200px] sm:mt-[240px] md:mt-[290px] lg:mt-[340px]",
+				className: "flex-1 mt-[220px] sm:mt-[270px] md:mt-[320px] lg:mt-[400px]",
 				children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Outlet, {
 					"data-uid": "src/components/Layout.tsx:13:9",
 					"data-prohibitions": "[editContent]"
@@ -23063,4 +23063,4 @@ function App() {
 }));
 //#endregion
 
-//# sourceMappingURL=index-CQA6_VGn.js.map
+//# sourceMappingURL=index-bJrjfIRP.js.map

@@ -9,7 +9,7 @@ export function Layout() {
   return (
     <div className="flex flex-col min-h-screen font-sans antialiased bg-slate-50">
       <Header />
-      <main className="flex-1 mt-[200px] sm:mt-[240px] md:mt-[290px] lg:mt-[340px]">
+      <main className="flex-1 mt-[220px] sm:mt-[270px] md:mt-[320px] lg:mt-[400px]">
         <Outlet />
       </main>
       <Footer />
