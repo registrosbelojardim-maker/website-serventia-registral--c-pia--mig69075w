@@ -7,10 +7,16 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
-        heading: ['Montserrat', 'sans-serif'],
+        heading: ['ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       },
       colors: {
         navy: '#0A2342',
+        gold: {
+          DEFAULT: '#D4AF37',
+          light: '#F3E5AB',
+          dark: '#AA8C2C',
+        },
+        forest: '#1A432B',
         grey: '#6B7280',
         'soft-black': '#1F2937',
         background: 'hsl(var(--background))',

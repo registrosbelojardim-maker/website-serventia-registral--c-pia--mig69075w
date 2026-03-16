@@ -17396,6 +17396,28 @@ var BookOpen = createLucideIcon("book-open", [["path", {
 	d: "M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z",
 	key: "ruj8y"
 }]]);
+var Building2 = createLucideIcon("building-2", [
+	["path", {
+		d: "M10 12h4",
+		key: "a56b0p"
+	}],
+	["path", {
+		d: "M10 8h4",
+		key: "1sr2af"
+	}],
+	["path", {
+		d: "M14 21v-3a2 2 0 0 0-4 0v3",
+		key: "1rgiei"
+	}],
+	["path", {
+		d: "M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2",
+		key: "secmi2"
+	}],
+	["path", {
+		d: "M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16",
+		key: "16ra0t"
+	}]
+]);
 var Building = createLucideIcon("building", [
 	["path", {
 		d: "M12 10h.01",
@@ -17446,6 +17468,28 @@ var Building = createLucideIcon("building", [
 		key: "1uxh74"
 	}]
 ]);
+var Church = createLucideIcon("church", [
+	["path", {
+		d: "M10 9h4",
+		key: "u4k05v"
+	}],
+	["path", {
+		d: "M12 7v5",
+		key: "ma6bk"
+	}],
+	["path", {
+		d: "M14 21v-3a2 2 0 0 0-4 0v3",
+		key: "1rgiei"
+	}],
+	["path", {
+		d: "m18 9 3.52 2.147a1 1 0 0 1 .48.854V19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-6.999a1 1 0 0 1 .48-.854L6 9",
+		key: "flvdwo"
+	}],
+	["path", {
+		d: "M6 21V7a1 1 0 0 1 .376-.782l5-3.999a1 1 0 0 1 1.249.001l5 4A1 1 0 0 1 18 7v14",
+		key: "a5i0n2"
+	}]
+]);
 var CircleCheck = createLucideIcon("circle-check", [["circle", {
 	cx: "12",
 	cy: "12",
@@ -17464,6 +17508,24 @@ var Clock = createLucideIcon("clock", [["circle", {
 	d: "M12 6v6l4 2",
 	key: "mmk7yg"
 }]]);
+var Factory = createLucideIcon("factory", [
+	["path", {
+		d: "M12 16h.01",
+		key: "1drbdi"
+	}],
+	["path", {
+		d: "M16 16h.01",
+		key: "1f9h7w"
+	}],
+	["path", {
+		d: "M3 19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5a.5.5 0 0 0-.769-.422l-4.462 2.844A.5.5 0 0 1 15 10.5v-2a.5.5 0 0 0-.769-.422L9.77 10.922A.5.5 0 0 1 9 10.5V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z",
+		key: "1iv0i2"
+	}],
+	["path", {
+		d: "M8 16h.01",
+		key: "18s6g9"
+	}]
+]);
 var FileCheck = createLucideIcon("file-check", [
 	["path", {
 		d: "M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z",
@@ -17500,6 +17562,13 @@ var FileText = createLucideIcon("file-text", [
 		key: "z1uh3a"
 	}]
 ]);
+var Leaf = createLucideIcon("leaf", [["path", {
+	d: "M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z",
+	key: "nnexq3"
+}], ["path", {
+	d: "M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12",
+	key: "mt58a7"
+}]]);
 var Mail = createLucideIcon("mail", [["path", {
 	d: "m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7",
 	key: "132q7q"
@@ -19611,7 +19680,7 @@ function Footer() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("footer", {
 		"data-uid": "src/components/layout/Footer.tsx:9:5",
 		"data-prohibitions": "[editContent]",
-		className: "bg-slate-900 text-slate-300 pt-16 pb-8 border-t border-slate-800",
+		className: "bg-navy text-slate-300 pt-16 pb-8 border-t border-slate-800",
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			"data-uid": "src/components/layout/Footer.tsx:10:7",
 			"data-prohibitions": "[editContent]",
@@ -19628,7 +19697,7 @@ function Footer() {
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 							"data-uid": "src/components/layout/Footer.tsx:14:13",
 							"data-prohibitions": "[]",
-							className: "flex items-center gap-4 bg-white/5 p-4 rounded-xl w-fit border border-white/10",
+							className: "flex items-center gap-4 bg-white/5 p-4 rounded-xl w-fit border border-gold/20",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 								"data-uid": "src/components/layout/Footer.tsx:15:15",
 								"data-prohibitions": "[]",
@@ -19645,19 +19714,19 @@ function Footer() {
 								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 									"data-uid": "src/components/layout/Footer.tsx:19:17",
 									"data-prohibitions": "[]",
-									className: "font-bold text-white text-base uppercase leading-tight tracking-wider",
+									className: "font-bold text-white text-base uppercase leading-tight tracking-wider font-heading",
 									children: "Serventia Registral"
 								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 									"data-uid": "src/components/layout/Footer.tsx:22:17",
 									"data-prohibitions": "[]",
-									className: "font-bold text-slate-300 text-sm uppercase leading-tight",
+									className: "font-bold text-gold text-sm uppercase leading-tight font-heading",
 									children: "de Belo Jardim"
 								})]
 							})]
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 							"data-uid": "src/components/layout/Footer.tsx:27:13",
 							"data-prohibitions": "[]",
-							className: "text-sm leading-relaxed text-slate-400",
+							className: "text-sm leading-relaxed text-slate-300",
 							children: "A Serventia Registral de Belo Jardim atua prestando serviços essenciais de Registro de Imóveis, Registro de Títulos e Documentos e Registro Civil das Pessoas Jurídicas, garantindo segurança jurídica e eficácia em todos os atos praticados."
 						})]
 					}),
@@ -19667,7 +19736,7 @@ function Footer() {
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
 							"data-uid": "src/components/layout/Footer.tsx:36:13",
 							"data-prohibitions": "[]",
-							className: "text-white font-semibold text-lg mb-6",
+							className: "text-white font-semibold font-heading text-lg mb-6",
 							children: "Links Rápidos"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
 							"data-uid": "src/components/layout/Footer.tsx:37:13",
@@ -19697,11 +19766,11 @@ function Footer() {
 									"data-uid": "src/components/layout/Footer.tsx:45:19",
 									"data-prohibitions": "[editContent]",
 									to: link.path,
-									className: "text-sm hover:text-white transition-colors flex items-center gap-2 group",
+									className: "text-sm hover:text-gold transition-colors flex items-center gap-2 group",
 									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 										"data-uid": "src/components/layout/Footer.tsx:49:21",
 										"data-prohibitions": "[editContent]",
-										className: "w-1 h-1 rounded-full bg-primary/50 group-hover:bg-primary transition-colors"
+										className: "w-1 h-1 rounded-full bg-gold/50 group-hover:bg-gold transition-colors"
 									}), link.name]
 								})
 							}, link.path))
@@ -19713,7 +19782,7 @@ function Footer() {
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
 							"data-uid": "src/components/layout/Footer.tsx:59:13",
 							"data-prohibitions": "[]",
-							className: "text-white font-semibold text-lg mb-6",
+							className: "text-white font-semibold font-heading text-lg mb-6",
 							children: "Atendimento"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
 							"data-uid": "src/components/layout/Footer.tsx:60:13",
@@ -19727,12 +19796,12 @@ function Footer() {
 									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(MapPin, {
 										"data-uid": "src/components/layout/Footer.tsx:62:17",
 										"data-prohibitions": "[editContent]",
-										className: "w-5 h-5 text-primary shrink-0 mt-0.5"
+										className: "w-5 h-5 text-gold shrink-0 mt-0.5"
 									}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
 										"data-uid": "src/components/layout/Footer.tsx:63:17",
 										"data-prohibitions": "[]",
 										children: [
-											"Av. Deputado José Mendonça Bezerra, 255",
+											"Praça Floriano Peixoto",
 											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {
 												"data-uid": "src/components/layout/Footer.tsx:65:19",
 												"data-prohibitions": "[editContent]"
@@ -19742,7 +19811,7 @@ function Footer() {
 												"data-uid": "src/components/layout/Footer.tsx:67:19",
 												"data-prohibitions": "[editContent]"
 											}),
-											"CEP: 55150-000"
+											"CEP: 55150-010"
 										]
 									})]
 								}),
@@ -19753,7 +19822,7 @@ function Footer() {
 									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Phone, {
 										"data-uid": "src/components/layout/Footer.tsx:72:17",
 										"data-prohibitions": "[editContent]",
-										className: "w-5 h-5 text-primary shrink-0"
+										className: "w-5 h-5 text-gold shrink-0"
 									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 										"data-uid": "src/components/layout/Footer.tsx:73:17",
 										"data-prohibitions": "[]",
@@ -19767,7 +19836,7 @@ function Footer() {
 									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Mail, {
 										"data-uid": "src/components/layout/Footer.tsx:76:17",
 										"data-prohibitions": "[editContent]",
-										className: "w-5 h-5 text-primary shrink-0"
+										className: "w-5 h-5 text-gold shrink-0"
 									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 										"data-uid": "src/components/layout/Footer.tsx:77:17",
 										"data-prohibitions": "[]",
@@ -19781,7 +19850,7 @@ function Footer() {
 									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Clock, {
 										"data-uid": "src/components/layout/Footer.tsx:80:17",
 										"data-prohibitions": "[editContent]",
-										className: "w-5 h-5 text-primary shrink-0"
+										className: "w-5 h-5 text-gold shrink-0"
 									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 										"data-uid": "src/components/layout/Footer.tsx:81:17",
 										"data-prohibitions": "[]",
@@ -19797,28 +19866,28 @@ function Footer() {
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
 							"data-uid": "src/components/layout/Footer.tsx:88:13",
 							"data-prohibitions": "[]",
-							className: "text-white font-semibold text-lg mb-6",
+							className: "text-white font-semibold font-heading text-lg mb-6",
 							children: "Segurança e Validade"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							"data-uid": "src/components/layout/Footer.tsx:89:13",
+							"data-uid": "src/components/layout/Footer.tsx:91:13",
 							"data-prohibitions": "[]",
 							className: "bg-slate-800/50 p-6 rounded-xl border border-slate-700/50 flex flex-col items-center text-center gap-4",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Shield, {
-								"data-uid": "src/components/layout/Footer.tsx:90:15",
+								"data-uid": "src/components/layout/Footer.tsx:92:15",
 								"data-prohibitions": "[editContent]",
-								className: "w-10 h-10 text-slate-400"
+								className: "w-10 h-10 text-gold"
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								"data-uid": "src/components/layout/Footer.tsx:91:15",
+								"data-uid": "src/components/layout/Footer.tsx:93:15",
 								"data-prohibitions": "[]",
 								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									"data-uid": "src/components/layout/Footer.tsx:92:17",
+									"data-uid": "src/components/layout/Footer.tsx:94:17",
 									"data-prohibitions": "[]",
-									className: "text-sm font-medium text-white mb-1",
+									className: "text-sm font-medium text-white mb-1 font-heading",
 									children: "Fiscalização"
 								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									"data-uid": "src/components/layout/Footer.tsx:93:17",
+									"data-uid": "src/components/layout/Footer.tsx:95:17",
 									"data-prohibitions": "[]",
-									className: "text-xs text-slate-400",
+									className: "text-xs text-slate-300",
 									children: "Atos sob fiscalização do Poder Judiciário - Corregedoria Geral da Justiça de Pernambuco (TJPE)."
 								})]
 							})]
@@ -19826,13 +19895,13 @@ function Footer() {
 					})
 				]
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-				"data-uid": "src/components/layout/Footer.tsx:103:9",
+				"data-uid": "src/components/layout/Footer.tsx:105:9",
 				"data-prohibitions": "[editContent]",
 				className: "pt-8 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4",
 				children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-					"data-uid": "src/components/layout/Footer.tsx:104:11",
+					"data-uid": "src/components/layout/Footer.tsx:106:11",
 					"data-prohibitions": "[editContent]",
-					className: "text-xs text-slate-500 text-center md:text-left",
+					className: "text-xs text-slate-400 text-center md:text-left",
 					children: [
 						"© ",
 						currentYear,
@@ -22293,14 +22362,397 @@ function Layout() {
 	});
 }
 //#endregion
-//#region src/pages/Index.tsx
-function Index() {
+//#region src/components/home/HeroSection.tsx
+function HeroSection() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+		"data-uid": "src/components/home/HeroSection.tsx:7:5",
+		"data-prohibitions": "[]",
+		className: "relative py-20 md:py-32 overflow-hidden bg-navy text-white",
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				"data-uid": "src/components/home/HeroSection.tsx:8:7",
+				"data-prohibitions": "[editContent]",
+				className: "absolute inset-0 bg-[url('https://img.usecurling.com/p/1920/1080?q=law%20library%20books&color=black')] bg-cover bg-center opacity-30 mix-blend-overlay"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				"data-uid": "src/components/home/HeroSection.tsx:9:7",
+				"data-prohibitions": "[editContent]",
+				className: "absolute inset-0 bg-gradient-to-b from-navy/90 to-navy/70"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				"data-uid": "src/components/home/HeroSection.tsx:10:7",
+				"data-prohibitions": "[]",
+				className: "container mx-auto px-4 relative z-10",
+				children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					"data-uid": "src/components/home/HeroSection.tsx:11:9",
+					"data-prohibitions": "[]",
+					className: "max-w-4xl mx-auto text-center",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							"data-uid": "src/components/home/HeroSection.tsx:12:11",
+							"data-prohibitions": "[]",
+							className: "inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold/10 text-gold font-medium text-sm mb-8 animate-fade-in-up border border-gold/20 backdrop-blur-sm",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Shield, {
+								"data-uid": "src/components/home/HeroSection.tsx:13:13",
+								"data-prohibitions": "[editContent]",
+								className: "w-4 h-4"
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								"data-uid": "src/components/home/HeroSection.tsx:14:13",
+								"data-prohibitions": "[]",
+								children: "Segurança Jurídica e Fé Pública"
+							})]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h1", {
+							"data-uid": "src/components/home/HeroSection.tsx:16:11",
+							"data-prohibitions": "[]",
+							className: "text-4xl md:text-5xl lg:text-6xl font-bold text-white tracking-tight leading-tight mb-6 animate-fade-in-up font-heading",
+							style: { animationDelay: "100ms" },
+							children: [
+								"Tradição e Modernidade ",
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {
+									"data-uid": "src/components/home/HeroSection.tsx:20:36",
+									"data-prohibitions": "[editContent]",
+									className: "hidden md:block"
+								}),
+								" em Belo Jardim"
+							]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							"data-uid": "src/components/home/HeroSection.tsx:22:11",
+							"data-prohibitions": "[]",
+							className: "text-lg md:text-xl text-slate-300 mb-10 leading-relaxed animate-fade-in-up max-w-2xl mx-auto",
+							style: { animationDelay: "200ms" },
+							children: "Serviços oficiais de Registro de Imóveis, Registro de Títulos e Documentos e Registro Civil das Pessoas Jurídicas com excelência e estrito cumprimento das normas do CNJ e TJPE."
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							"data-uid": "src/components/home/HeroSection.tsx:30:11",
+							"data-prohibitions": "[]",
+							className: "flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up",
+							style: { animationDelay: "300ms" },
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+								"data-uid": "src/components/home/HeroSection.tsx:34:13",
+								"data-prohibitions": "[]",
+								size: "lg",
+								className: "w-full sm:w-auto text-base rounded-full bg-gold text-navy hover:bg-gold/90 font-semibold",
+								asChild: true,
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
+									"data-uid": "src/components/home/HeroSection.tsx:39:15",
+									"data-prohibitions": "[]",
+									to: "/servicos",
+									children: "Conhecer Serviços"
+								})
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+								"data-uid": "src/components/home/HeroSection.tsx:41:13",
+								"data-prohibitions": "[]",
+								size: "lg",
+								variant: "outline",
+								className: "w-full sm:w-auto text-base rounded-full border-gold text-gold hover:bg-gold hover:text-navy font-semibold",
+								asChild: true,
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+									"data-uid": "src/components/home/HeroSection.tsx:47:15",
+									"data-prohibitions": "[]",
+									href: "https://wa.me/5581999990000",
+									target: "_blank",
+									rel: "noopener noreferrer",
+									children: "Agendar Atendimento"
+								})
+							})]
+						})
+					]
+				})
+			})
+		]
+	});
+}
+//#endregion
+//#region src/components/home/AboutSection.tsx
+function AboutSection() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+		"data-uid": "src/components/home/AboutSection.tsx:5:5",
+		"data-prohibitions": "[editContent]",
+		id: "sobre",
+		className: "py-20 lg:py-28 bg-white scroll-mt-32",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+			"data-uid": "src/components/home/AboutSection.tsx:6:7",
+			"data-prohibitions": "[editContent]",
+			className: "container mx-auto px-4 max-w-7xl",
+			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				"data-uid": "src/components/home/AboutSection.tsx:7:9",
+				"data-prohibitions": "[editContent]",
+				className: "grid lg:grid-cols-2 gap-16 items-center",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					"data-uid": "src/components/home/AboutSection.tsx:8:11",
+					"data-prohibitions": "[]",
+					className: "relative",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							"data-uid": "src/components/home/AboutSection.tsx:9:13",
+							"data-prohibitions": "[editContent]",
+							className: "absolute inset-0 bg-navy/5 rounded-3xl transform -translate-x-4 translate-y-4"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+							"data-uid": "src/components/home/AboutSection.tsx:10:13",
+							"data-prohibitions": "[editContent]",
+							src: "https://img.usecurling.com/p/800/600?q=classic%20courthouse%20architecture&color=gray",
+							alt: "Instituição",
+							className: "relative rounded-3xl object-cover shadow-xl w-full h-[450px]"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							"data-uid": "src/components/home/AboutSection.tsx:15:13",
+							"data-prohibitions": "[]",
+							className: "absolute -bottom-8 -right-8 bg-white p-6 rounded-2xl shadow-xl hidden sm:flex items-center gap-5 border border-slate-100 z-10",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								"data-uid": "src/components/home/AboutSection.tsx:16:15",
+								"data-prohibitions": "[]",
+								className: "bg-navy/10 p-4 rounded-xl text-navy",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Scale, {
+									"data-uid": "src/components/home/AboutSection.tsx:17:17",
+									"data-prohibitions": "[editContent]",
+									className: "w-8 h-8"
+								})
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								"data-uid": "src/components/home/AboutSection.tsx:19:15",
+								"data-prohibitions": "[]",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+									"data-uid": "src/components/home/AboutSection.tsx:20:17",
+									"data-prohibitions": "[]",
+									className: "font-bold font-heading text-slate-900 text-lg",
+									children: "Fé Pública"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+									"data-uid": "src/components/home/AboutSection.tsx:21:17",
+									"data-prohibitions": "[]",
+									className: "text-sm text-slate-500 font-medium",
+									children: "Garantia de Autenticidade"
+								})]
+							})]
+						})
+					]
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					"data-uid": "src/components/home/AboutSection.tsx:25:11",
+					"data-prohibitions": "[editContent]",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+							"data-uid": "src/components/home/AboutSection.tsx:26:13",
+							"data-prohibitions": "[]",
+							className: "text-3xl lg:text-4xl font-bold font-heading text-navy mb-6 tracking-tight",
+							children: "Nossa Instituição"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							"data-uid": "src/components/home/AboutSection.tsx:29:13",
+							"data-prohibitions": "[]",
+							className: "text-lg text-slate-600 mb-6 leading-relaxed",
+							children: "A Serventia Registral de Belo Jardim é uma instituição dotada de fé pública, delegada pelo Poder Público para garantir a autenticidade, segurança e eficácia dos atos jurídicos relativos a bens imóveis, títulos, documentos e pessoas jurídicas."
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							"data-uid": "src/components/home/AboutSection.tsx:34:13",
+							"data-prohibitions": "[]",
+							className: "text-lg text-slate-600 mb-8 leading-relaxed",
+							children: "Atuamos em estrita observância aos princípios legais e às normativas do Conselho Nacional de Justiça (CNJ) e do Tribunal de Justiça de Pernambuco (TJPE), buscando sempre a modernização dos nossos processos para oferecer um atendimento ágil e transparente à população."
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
+							"data-uid": "src/components/home/AboutSection.tsx:40:13",
+							"data-prohibitions": "[editContent]",
+							className: "space-y-4",
+							children: [
+								"Atendimento ágil e desburocratizado",
+								"Equipe altamente capacitada e atualizada",
+								"Instalações modernas e acessíveis",
+								"Estrito cumprimento das normas do CNJ e TJPE"
+							].map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
+								"data-uid": "src/components/home/AboutSection.tsx:47:17",
+								"data-prohibitions": "[editContent]",
+								className: "flex items-center gap-3",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CircleCheck, {
+									"data-uid": "src/components/home/AboutSection.tsx:48:19",
+									"data-prohibitions": "[editContent]",
+									className: "w-5 h-5 text-gold shrink-0"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+									"data-uid": "src/components/home/AboutSection.tsx:49:19",
+									"data-prohibitions": "[editContent]",
+									className: "text-slate-700 font-medium",
+									children: item
+								})]
+							}, i))
+						})
+					]
+				})]
+			})
+		})
+	});
+}
+//#endregion
+//#region src/components/home/IdentitySection.tsx
+function IdentitySection() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+		"data-uid": "src/components/home/IdentitySection.tsx:5:5",
+		"data-prohibitions": "[]",
+		className: "py-20 lg:py-28 relative overflow-hidden bg-forest text-white",
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				"data-uid": "src/components/home/IdentitySection.tsx:6:7",
+				"data-prohibitions": "[editContent]",
+				className: "absolute inset-0 bg-[url('https://img.usecurling.com/p/1920/1080?q=landscape%20nature%20mountains&color=green')] bg-cover bg-center opacity-10 mix-blend-overlay"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				"data-uid": "src/components/home/IdentitySection.tsx:7:7",
+				"data-prohibitions": "[editContent]",
+				className: "absolute inset-0 bg-gradient-to-b from-forest/90 to-forest/70"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				"data-uid": "src/components/home/IdentitySection.tsx:8:7",
+				"data-prohibitions": "[]",
+				className: "container mx-auto px-4 relative z-10 max-w-7xl",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					"data-uid": "src/components/home/IdentitySection.tsx:9:9",
+					"data-prohibitions": "[]",
+					className: "text-center max-w-3xl mx-auto mb-16",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+						"data-uid": "src/components/home/IdentitySection.tsx:10:11",
+						"data-prohibitions": "[]",
+						className: "text-3xl lg:text-4xl font-bold font-heading text-gold mb-6 tracking-tight",
+						children: "A Força e a Fé de Belo Jardim"
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						"data-uid": "src/components/home/IdentitySection.tsx:13:11",
+						"data-prohibitions": "[]",
+						className: "text-white/80 text-lg leading-relaxed",
+						children: "Nossa serventia se inspira na rica identidade do nosso município, unindo tradição, espiritualidade e o forte potencial de crescimento econômico."
+					})]
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					"data-uid": "src/components/home/IdentitySection.tsx:19:9",
+					"data-prohibitions": "[]",
+					className: "grid md:grid-cols-2 lg:grid-cols-4 gap-6",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							"data-uid": "src/components/home/IdentitySection.tsx:20:11",
+							"data-prohibitions": "[]",
+							className: "bg-white/5 border border-white/10 rounded-3xl p-8 backdrop-blur-sm hover:bg-white/10 transition-colors",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									"data-uid": "src/components/home/IdentitySection.tsx:21:13",
+									"data-prohibitions": "[]",
+									className: "w-12 h-12 bg-emerald-500/20 text-emerald-300 rounded-xl flex items-center justify-center mb-6",
+									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Leaf, {
+										"data-uid": "src/components/home/IdentitySection.tsx:22:15",
+										"data-prohibitions": "[editContent]",
+										className: "w-6 h-6"
+									})
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+									"data-uid": "src/components/home/IdentitySection.tsx:24:13",
+									"data-prohibitions": "[]",
+									className: "text-xl font-bold font-heading text-white mb-3",
+									children: "Belezas Naturais"
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+									"data-uid": "src/components/home/IdentitySection.tsx:25:13",
+									"data-prohibitions": "[]",
+									className: "text-white/70 leading-relaxed text-sm",
+									children: "Inspirados pelas ricas paisagens do agreste, valorizamos e preservamos o patrimônio local com dedicação."
+								})
+							]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							"data-uid": "src/components/home/IdentitySection.tsx:31:11",
+							"data-prohibitions": "[]",
+							className: "bg-white/5 border border-white/10 rounded-3xl p-8 backdrop-blur-sm hover:bg-white/10 transition-colors",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									"data-uid": "src/components/home/IdentitySection.tsx:32:13",
+									"data-prohibitions": "[]",
+									className: "w-12 h-12 bg-gold/20 text-gold rounded-xl flex items-center justify-center mb-6",
+									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Church, {
+										"data-uid": "src/components/home/IdentitySection.tsx:33:15",
+										"data-prohibitions": "[editContent]",
+										className: "w-6 h-6"
+									})
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+									"data-uid": "src/components/home/IdentitySection.tsx:35:13",
+									"data-prohibitions": "[]",
+									className: "text-xl font-bold font-heading text-white mb-3",
+									children: "Reino de Jesus"
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+									"data-uid": "src/components/home/IdentitySection.tsx:36:13",
+									"data-prohibitions": "[]",
+									className: "text-white/70 leading-relaxed text-sm",
+									children: "Guiados pela fé e pelos princípios cristãos, atuamos com retidão, ética e profundo respeito ao próximo."
+								})
+							]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							"data-uid": "src/components/home/IdentitySection.tsx:42:11",
+							"data-prohibitions": "[]",
+							className: "bg-white/5 border border-white/10 rounded-3xl p-8 backdrop-blur-sm hover:bg-white/10 transition-colors",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									"data-uid": "src/components/home/IdentitySection.tsx:43:13",
+									"data-prohibitions": "[]",
+									className: "w-12 h-12 bg-blue-500/20 text-blue-300 rounded-xl flex items-center justify-center mb-6",
+									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Building2, {
+										"data-uid": "src/components/home/IdentitySection.tsx:44:15",
+										"data-prohibitions": "[editContent]",
+										className: "w-6 h-6"
+									})
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+									"data-uid": "src/components/home/IdentitySection.tsx:46:13",
+									"data-prohibitions": "[]",
+									className: "text-xl font-bold font-heading text-white mb-3",
+									children: "Potencial Imobiliário"
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+									"data-uid": "src/components/home/IdentitySection.tsx:49:13",
+									"data-prohibitions": "[]",
+									className: "text-white/70 leading-relaxed text-sm",
+									children: "Acompanhamos o desenvolvimento urbano, garantindo a segurança jurídica necessária para novos investimentos e moradias."
+								})
+							]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							"data-uid": "src/components/home/IdentitySection.tsx:55:11",
+							"data-prohibitions": "[]",
+							className: "bg-white/5 border border-white/10 rounded-3xl p-8 backdrop-blur-sm hover:bg-white/10 transition-colors",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									"data-uid": "src/components/home/IdentitySection.tsx:56:13",
+									"data-prohibitions": "[]",
+									className: "w-12 h-12 bg-slate-500/20 text-slate-300 rounded-xl flex items-center justify-center mb-6",
+									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Factory, {
+										"data-uid": "src/components/home/IdentitySection.tsx:57:15",
+										"data-prohibitions": "[editContent]",
+										className: "w-6 h-6"
+									})
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+									"data-uid": "src/components/home/IdentitySection.tsx:59:13",
+									"data-prohibitions": "[]",
+									className: "text-xl font-bold font-heading text-white mb-3",
+									children: "Polo Industrial"
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+									"data-uid": "src/components/home/IdentitySection.tsx:60:13",
+									"data-prohibitions": "[]",
+									className: "text-white/70 leading-relaxed text-sm",
+									children: "Apoiamos a vocação manufatureira da cidade, registrando e protegendo as pessoas jurídicas que movem nossa economia."
+								})
+							]
+						})
+					]
+				})]
+			})
+		]
+	});
+}
+//#endregion
+//#region src/components/home/ServicesSection.tsx
+function ServicesSection() {
 	const services = [
 		{
 			title: "Registro de Imóveis",
 			description: "Garantia de propriedade, segurança jurídica e publicidade dos atos relativos a bens imóveis em nossa jurisdição.",
 			icon: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Building, {
-				"data-uid": "src/pages/Index.tsx:21:13",
+				"data-uid": "src/components/home/ServicesSection.tsx:10:13",
 				"data-prohibitions": "[editContent]",
 				className: "w-6 h-6"
 			}),
@@ -22310,7 +22762,7 @@ function Index() {
 			title: "Registro de Títulos e Documentos",
 			description: "Conservação, validade contra terceiros e data certa para qualquer documento, garantindo sua perpetuidade.",
 			icon: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(FileText, {
-				"data-uid": "src/pages/Index.tsx:28:13",
+				"data-uid": "src/components/home/ServicesSection.tsx:17:13",
 				"data-prohibitions": "[editContent]",
 				className: "w-6 h-6"
 			}),
@@ -22320,449 +22772,266 @@ function Index() {
 			title: "Registro Civil de Pessoas Jurídicas",
 			description: "Constituição, alteração e extinção de associações, fundações, sociedades simples e organizações religiosas.",
 			icon: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BookOpen, {
-				"data-uid": "src/pages/Index.tsx:35:13",
+				"data-uid": "src/components/home/ServicesSection.tsx:24:13",
 				"data-prohibitions": "[editContent]",
 				className: "w-6 h-6"
 			}),
 			link: "/servicos#pessoas-juridicas"
 		}
 	];
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-		"data-uid": "src/pages/Index.tsx:41:5",
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+		"data-uid": "src/components/home/ServicesSection.tsx:30:5",
 		"data-prohibitions": "[editContent]",
-		className: "flex flex-col w-full",
-		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
-				"data-uid": "src/pages/Index.tsx:43:7",
+		className: "py-20 lg:py-28 bg-slate-50 border-y border-slate-200",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			"data-uid": "src/components/home/ServicesSection.tsx:31:7",
+			"data-prohibitions": "[editContent]",
+			className: "container mx-auto px-4",
+			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				"data-uid": "src/components/home/ServicesSection.tsx:32:9",
 				"data-prohibitions": "[]",
-				className: "relative py-20 md:py-32 overflow-hidden bg-slate-900 text-white",
-				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-						"data-uid": "src/pages/Index.tsx:44:9",
-						"data-prohibitions": "[editContent]",
-						className: "absolute inset-0 bg-[url('https://img.usecurling.com/p/1920/1080?q=law%20library%20books&color=black')] bg-cover bg-center opacity-30 mix-blend-overlay"
-					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-						"data-uid": "src/pages/Index.tsx:45:9",
-						"data-prohibitions": "[editContent]",
-						className: "absolute inset-0 bg-gradient-to-b from-slate-900/90 to-slate-900/50"
-					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-						"data-uid": "src/pages/Index.tsx:46:9",
-						"data-prohibitions": "[]",
-						className: "container mx-auto px-4 relative z-10",
-						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							"data-uid": "src/pages/Index.tsx:47:11",
+				className: "text-center max-w-2xl mx-auto mb-16",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+					"data-uid": "src/components/home/ServicesSection.tsx:33:11",
+					"data-prohibitions": "[]",
+					className: "text-3xl lg:text-4xl font-bold font-heading text-navy mb-4 tracking-tight",
+					children: "Áreas de Atuação"
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					"data-uid": "src/components/home/ServicesSection.tsx:36:11",
+					"data-prohibitions": "[]",
+					className: "text-slate-600 text-lg leading-relaxed",
+					children: "Oferecemos serviços registrais fundamentais para garantir a segurança jurídica dos seus bens e documentos."
+				})]
+			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				"data-uid": "src/components/home/ServicesSection.tsx:42:9",
+				"data-prohibitions": "[editContent]",
+				className: "grid md:grid-cols-3 gap-8 max-w-6xl mx-auto",
+				children: services.map((service, index) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					"data-uid": "src/components/home/ServicesSection.tsx:44:13",
+					"data-prohibitions": "[editContent]",
+					className: "group relative bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							"data-uid": "src/components/home/ServicesSection.tsx:48:15",
+							"data-prohibitions": "[editContent]",
+							className: "w-14 h-14 bg-navy/5 text-navy rounded-xl flex items-center justify-center mb-6 group-hover:bg-navy group-hover:text-gold transition-colors duration-300",
+							children: service.icon
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+							"data-uid": "src/components/home/ServicesSection.tsx:51:15",
+							"data-prohibitions": "[editContent]",
+							className: "text-xl font-bold font-heading text-slate-900 mb-3",
+							children: service.title
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							"data-uid": "src/components/home/ServicesSection.tsx:54:15",
+							"data-prohibitions": "[editContent]",
+							className: "text-slate-600 mb-8 leading-relaxed",
+							children: service.description
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
+							"data-uid": "src/components/home/ServicesSection.tsx:55:15",
 							"data-prohibitions": "[]",
-							className: "max-w-4xl mx-auto text-center",
+							to: service.link,
+							className: "inline-flex items-center text-navy font-semibold hover:text-navy/80 transition-colors mt-auto",
 							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-									"data-uid": "src/pages/Index.tsx:48:13",
-									"data-prohibitions": "[]",
-									className: "inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white font-medium text-sm mb-8 animate-fade-in-up border border-white/20 backdrop-blur-sm",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Shield, {
-										"data-uid": "src/pages/Index.tsx:49:15",
-										"data-prohibitions": "[editContent]",
-										className: "w-4 h-4"
-									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-										"data-uid": "src/pages/Index.tsx:50:15",
-										"data-prohibitions": "[]",
-										children: "Segurança Jurídica e Fé Pública"
-									})]
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h1", {
-									"data-uid": "src/pages/Index.tsx:52:13",
-									"data-prohibitions": "[]",
-									className: "text-4xl md:text-5xl lg:text-6xl font-bold text-white tracking-tight leading-tight mb-6 animate-fade-in-up",
-									style: { animationDelay: "100ms" },
-									children: [
-										"Tradição e Modernidade ",
-										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {
-											"data-uid": "src/pages/Index.tsx:56:38",
-											"data-prohibitions": "[editContent]",
-											className: "hidden md:block"
-										}),
-										" em Belo Jardim"
-									]
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									"data-uid": "src/pages/Index.tsx:58:13",
-									"data-prohibitions": "[]",
-									className: "text-lg md:text-xl text-slate-300 mb-10 leading-relaxed animate-fade-in-up max-w-2xl mx-auto",
-									style: { animationDelay: "200ms" },
-									children: "Serviços oficiais de Registro de Imóveis, Registro de Títulos e Documentos e Registro Civil das Pessoas Jurídicas com excelência e estrito cumprimento das normas do CNJ e TJPE."
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-									"data-uid": "src/pages/Index.tsx:66:13",
-									"data-prohibitions": "[]",
-									className: "flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up",
-									style: { animationDelay: "300ms" },
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
-										"data-uid": "src/pages/Index.tsx:70:15",
-										"data-prohibitions": "[]",
-										size: "lg",
-										className: "w-full sm:w-auto text-base rounded-full",
-										asChild: true,
-										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
-											"data-uid": "src/pages/Index.tsx:71:17",
-											"data-prohibitions": "[]",
-											to: "/servicos",
-											children: "Conhecer Serviços"
-										})
-									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
-										"data-uid": "src/pages/Index.tsx:73:15",
-										"data-prohibitions": "[]",
-										size: "lg",
-										variant: "outline",
-										className: "w-full sm:w-auto text-base rounded-full border-white text-white hover:bg-white hover:text-slate-900",
-										asChild: true,
-										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-											"data-uid": "src/pages/Index.tsx:79:17",
-											"data-prohibitions": "[]",
-											href: "https://wa.me/5581999990000",
-											target: "_blank",
-											rel: "noopener noreferrer",
-											children: "Agendar Atendimento"
-										})
-									})]
+								"Saber mais",
+								" ",
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, {
+									"data-uid": "src/components/home/ServicesSection.tsx:60:17",
+									"data-prohibitions": "[editContent]",
+									className: "w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform"
 								})
 							]
 						})
-					})
-				]
-			}),
-			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
-				"data-uid": "src/pages/Index.tsx:89:7",
-				"data-prohibitions": "[editContent]",
-				id: "sobre",
-				className: "py-20 lg:py-28 bg-white scroll-mt-32",
-				children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-					"data-uid": "src/pages/Index.tsx:90:9",
-					"data-prohibitions": "[editContent]",
-					className: "container mx-auto px-4 max-w-7xl",
-					children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						"data-uid": "src/pages/Index.tsx:91:11",
-						"data-prohibitions": "[editContent]",
-						className: "grid lg:grid-cols-2 gap-16 items-center",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							"data-uid": "src/pages/Index.tsx:92:13",
-							"data-prohibitions": "[]",
-							className: "relative",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-									"data-uid": "src/pages/Index.tsx:93:15",
-									"data-prohibitions": "[editContent]",
-									className: "absolute inset-0 bg-primary/5 rounded-3xl transform -translate-x-4 translate-y-4"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-									"data-uid": "src/pages/Index.tsx:94:15",
-									"data-prohibitions": "[editContent]",
-									src: "https://img.usecurling.com/p/800/600?q=classic%20courthouse%20architecture&color=gray",
-									alt: "Instituição",
-									className: "relative rounded-3xl object-cover shadow-xl w-full h-[450px]"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-									"data-uid": "src/pages/Index.tsx:99:15",
-									"data-prohibitions": "[]",
-									className: "absolute -bottom-8 -right-8 bg-white p-6 rounded-2xl shadow-xl hidden sm:flex items-center gap-5 border border-slate-100 z-10",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-										"data-uid": "src/pages/Index.tsx:100:17",
-										"data-prohibitions": "[]",
-										className: "bg-primary/10 p-4 rounded-xl text-primary",
-										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Scale, {
-											"data-uid": "src/pages/Index.tsx:101:19",
-											"data-prohibitions": "[editContent]",
-											className: "w-8 h-8"
-										})
-									}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-										"data-uid": "src/pages/Index.tsx:103:17",
-										"data-prohibitions": "[]",
-										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-											"data-uid": "src/pages/Index.tsx:104:19",
-											"data-prohibitions": "[]",
-											className: "font-bold text-slate-900 text-lg",
-											children: "Fé Pública"
-										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-											"data-uid": "src/pages/Index.tsx:105:19",
-											"data-prohibitions": "[]",
-											className: "text-sm text-slate-500 font-medium",
-											children: "Garantia de Autenticidade"
-										})]
-									})]
-								})
-							]
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							"data-uid": "src/pages/Index.tsx:109:13",
-							"data-prohibitions": "[editContent]",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-									"data-uid": "src/pages/Index.tsx:110:15",
-									"data-prohibitions": "[]",
-									className: "text-3xl lg:text-4xl font-bold text-slate-900 mb-6 tracking-tight",
-									children: "Nossa Instituição"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									"data-uid": "src/pages/Index.tsx:113:15",
-									"data-prohibitions": "[]",
-									className: "text-lg text-slate-600 mb-6 leading-relaxed",
-									children: "A Serventia Registral de Belo Jardim é uma instituição dotada de fé pública, delegada pelo Poder Público para garantir a autenticidade, segurança e eficácia dos atos jurídicos relativos a bens imóveis, títulos, documentos e pessoas jurídicas."
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									"data-uid": "src/pages/Index.tsx:118:15",
-									"data-prohibitions": "[]",
-									className: "text-lg text-slate-600 mb-8 leading-relaxed",
-									children: "Atuamos em estrita observância aos princípios legais e às normativas do Conselho Nacional de Justiça (CNJ) e do Tribunal de Justiça de Pernambuco (TJPE), buscando sempre a modernização dos nossos processos para oferecer um atendimento ágil e transparente à população."
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
-									"data-uid": "src/pages/Index.tsx:124:15",
-									"data-prohibitions": "[editContent]",
-									className: "space-y-4",
-									children: [
-										"Atendimento ágil e desburocratizado",
-										"Equipe altamente capacitada e atualizada",
-										"Instalações modernas e acessíveis",
-										"Estrito cumprimento das normas do CNJ e TJPE"
-									].map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
-										"data-uid": "src/pages/Index.tsx:131:19",
-										"data-prohibitions": "[editContent]",
-										className: "flex items-center gap-3",
-										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CircleCheck, {
-											"data-uid": "src/pages/Index.tsx:132:21",
-											"data-prohibitions": "[editContent]",
-											className: "w-5 h-5 text-primary shrink-0"
-										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-											"data-uid": "src/pages/Index.tsx:133:21",
-											"data-prohibitions": "[editContent]",
-											className: "text-slate-700 font-medium",
-											children: item
-										})]
-									}, i))
-								})
-							]
-						})]
-					})
-				})
-			}),
-			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
-				"data-uid": "src/pages/Index.tsx:143:7",
-				"data-prohibitions": "[editContent]",
-				className: "py-20 lg:py-28 bg-slate-50 border-y border-slate-200",
-				children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					"data-uid": "src/pages/Index.tsx:144:9",
-					"data-prohibitions": "[editContent]",
-					className: "container mx-auto px-4",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						"data-uid": "src/pages/Index.tsx:145:11",
-						"data-prohibitions": "[]",
-						className: "text-center max-w-2xl mx-auto mb-16",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-							"data-uid": "src/pages/Index.tsx:146:13",
-							"data-prohibitions": "[]",
-							className: "text-3xl lg:text-4xl font-bold text-slate-900 mb-4 tracking-tight",
-							children: "Áreas de Atuação"
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-							"data-uid": "src/pages/Index.tsx:149:13",
-							"data-prohibitions": "[]",
-							className: "text-slate-600 text-lg leading-relaxed",
-							children: "Oferecemos serviços registrais fundamentais para garantir a segurança jurídica dos seus bens e documentos."
-						})]
-					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-						"data-uid": "src/pages/Index.tsx:155:11",
-						"data-prohibitions": "[editContent]",
-						className: "grid md:grid-cols-3 gap-8 max-w-6xl mx-auto",
-						children: services.map((service, index) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							"data-uid": "src/pages/Index.tsx:157:15",
-							"data-prohibitions": "[editContent]",
-							className: "group relative bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-									"data-uid": "src/pages/Index.tsx:161:17",
-									"data-prohibitions": "[editContent]",
-									className: "w-14 h-14 bg-primary/5 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors duration-300",
-									children: service.icon
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-									"data-uid": "src/pages/Index.tsx:164:17",
-									"data-prohibitions": "[editContent]",
-									className: "text-xl font-bold text-slate-900 mb-3",
-									children: service.title
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									"data-uid": "src/pages/Index.tsx:165:17",
-									"data-prohibitions": "[editContent]",
-									className: "text-slate-600 mb-8 leading-relaxed",
-									children: service.description
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
-									"data-uid": "src/pages/Index.tsx:166:17",
-									"data-prohibitions": "[]",
-									to: service.link,
-									className: "inline-flex items-center text-primary font-semibold hover:text-primary/80 transition-colors mt-auto",
-									children: [
-										"Saber mais",
-										" ",
-										/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, {
-											"data-uid": "src/pages/Index.tsx:171:19",
-											"data-prohibitions": "[editContent]",
-											className: "w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform"
-										})
-									]
-								})
-							]
-						}, index))
-					})]
-				})
-			}),
-			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
-				"data-uid": "src/pages/Index.tsx:180:7",
+					]
+				}, index))
+			})]
+		})
+	});
+}
+//#endregion
+//#region src/components/home/LocationSection.tsx
+function LocationSection() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+		"data-uid": "src/components/home/LocationSection.tsx:6:5",
+		"data-prohibitions": "[]",
+		id: "localizacao",
+		className: "py-20 lg:py-28 bg-white scroll-mt-32",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+			"data-uid": "src/components/home/LocationSection.tsx:7:7",
+			"data-prohibitions": "[]",
+			className: "container mx-auto px-4 max-w-6xl",
+			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				"data-uid": "src/components/home/LocationSection.tsx:8:9",
 				"data-prohibitions": "[]",
-				id: "localizacao",
-				className: "py-20 lg:py-28 bg-white scroll-mt-32",
-				children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-					"data-uid": "src/pages/Index.tsx:181:9",
+				className: "grid lg:grid-cols-2 gap-12 items-center",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					"data-uid": "src/components/home/LocationSection.tsx:9:11",
 					"data-prohibitions": "[]",
-					className: "container mx-auto px-4 max-w-6xl",
-					children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						"data-uid": "src/pages/Index.tsx:182:11",
-						"data-prohibitions": "[]",
-						className: "grid lg:grid-cols-2 gap-12 items-center",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							"data-uid": "src/pages/Index.tsx:183:13",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+							"data-uid": "src/components/home/LocationSection.tsx:10:13",
 							"data-prohibitions": "[]",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-									"data-uid": "src/pages/Index.tsx:184:15",
+							className: "text-3xl lg:text-4xl font-bold font-heading text-navy mb-6 tracking-tight",
+							children: "Localização e Atendimento"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							"data-uid": "src/components/home/LocationSection.tsx:13:13",
+							"data-prohibitions": "[]",
+							className: "text-lg text-slate-600 mb-10 leading-relaxed",
+							children: "Estamos localizados no centro de Belo Jardim, em instalações modernas e acessíveis, projetadas para oferecer o melhor e mais seguro atendimento ao cidadão."
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							"data-uid": "src/components/home/LocationSection.tsx:18:13",
+							"data-prohibitions": "[]",
+							className: "space-y-8",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								"data-uid": "src/components/home/LocationSection.tsx:19:15",
+								"data-prohibitions": "[]",
+								className: "flex items-start gap-5",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									"data-uid": "src/components/home/LocationSection.tsx:20:17",
 									"data-prohibitions": "[]",
-									className: "text-3xl lg:text-4xl font-bold text-slate-900 mb-6 tracking-tight",
-									children: "Localização e Atendimento"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									"data-uid": "src/pages/Index.tsx:187:15",
-									"data-prohibitions": "[]",
-									className: "text-lg text-slate-600 mb-10 leading-relaxed",
-									children: "Estamos localizados no centro de Belo Jardim, em instalações modernas e acessíveis, projetadas para oferecer o melhor e mais seguro atendimento ao cidadão."
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-									"data-uid": "src/pages/Index.tsx:192:15",
-									"data-prohibitions": "[]",
-									className: "space-y-8",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-										"data-uid": "src/pages/Index.tsx:193:17",
-										"data-prohibitions": "[]",
-										className: "flex items-start gap-5",
-										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-											"data-uid": "src/pages/Index.tsx:194:19",
-											"data-prohibitions": "[]",
-											className: "bg-primary/10 p-3.5 rounded-xl text-primary mt-1",
-											children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MapPin, {
-												"data-uid": "src/pages/Index.tsx:195:21",
-												"data-prohibitions": "[editContent]",
-												className: "w-6 h-6"
-											})
-										}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-											"data-uid": "src/pages/Index.tsx:197:19",
-											"data-prohibitions": "[]",
-											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-												"data-uid": "src/pages/Index.tsx:198:21",
-												"data-prohibitions": "[]",
-												className: "font-bold text-slate-900 text-lg mb-1",
-												children: "Endereço"
-											}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-												"data-uid": "src/pages/Index.tsx:199:21",
-												"data-prohibitions": "[]",
-												className: "text-slate-600 leading-relaxed",
-												children: [
-													"Av. Deputado José Mendonça Bezerra, 255",
-													/* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {
-														"data-uid": "src/pages/Index.tsx:201:23",
-														"data-prohibitions": "[editContent]"
-													}),
-													"Centro, Belo Jardim - PE",
-													/* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {
-														"data-uid": "src/pages/Index.tsx:203:23",
-														"data-prohibitions": "[editContent]"
-													}),
-													"CEP: 55150-000"
-												]
-											})]
-										})]
-									}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-										"data-uid": "src/pages/Index.tsx:209:17",
-										"data-prohibitions": "[]",
-										className: "flex items-start gap-5",
-										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-											"data-uid": "src/pages/Index.tsx:210:19",
-											"data-prohibitions": "[]",
-											className: "bg-primary/10 p-3.5 rounded-xl text-primary mt-1",
-											children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Clock, {
-												"data-uid": "src/pages/Index.tsx:211:21",
-												"data-prohibitions": "[editContent]",
-												className: "w-6 h-6"
-											})
-										}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-											"data-uid": "src/pages/Index.tsx:213:19",
-											"data-prohibitions": "[]",
-											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-												"data-uid": "src/pages/Index.tsx:214:21",
-												"data-prohibitions": "[]",
-												className: "font-bold text-slate-900 text-lg mb-1",
-												children: "Horário de Funcionamento"
-											}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-												"data-uid": "src/pages/Index.tsx:217:21",
-												"data-prohibitions": "[]",
-												className: "text-slate-600 leading-relaxed",
-												children: [
-													"Segunda a Sexta-feira",
-													/* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {
-														"data-uid": "src/pages/Index.tsx:219:23",
-														"data-prohibitions": "[editContent]"
-													}),
-													"08:00 às 17:00",
-													/* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {
-														"data-uid": "src/pages/Index.tsx:221:23",
-														"data-prohibitions": "[editContent]"
-													}),
-													/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-														"data-uid": "src/pages/Index.tsx:222:23",
-														"data-prohibitions": "[]",
-														className: "text-sm font-medium text-slate-500",
-														children: "(Sem intervalo para almoço)"
-													})
-												]
-											})]
-										})]
-									})]
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
-									"data-uid": "src/pages/Index.tsx:230:15",
-									"data-prohibitions": "[]",
-									size: "lg",
-									className: "mt-10 rounded-full text-base px-8 h-12",
-									asChild: true,
-									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-										"data-uid": "src/pages/Index.tsx:231:17",
-										"data-prohibitions": "[]",
-										href: "https://wa.me/5581999990000",
-										target: "_blank",
-										rel: "noopener noreferrer",
-										children: "Falar no WhatsApp"
+									className: "bg-navy/10 p-3.5 rounded-xl text-navy mt-1",
+									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MapPin, {
+										"data-uid": "src/components/home/LocationSection.tsx:21:19",
+										"data-prohibitions": "[editContent]",
+										className: "w-6 h-6"
 									})
-								})
-							]
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-							"data-uid": "src/pages/Index.tsx:237:13",
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									"data-uid": "src/components/home/LocationSection.tsx:23:17",
+									"data-prohibitions": "[]",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+										"data-uid": "src/components/home/LocationSection.tsx:24:19",
+										"data-prohibitions": "[]",
+										className: "font-bold font-heading text-slate-900 text-lg mb-1",
+										children: "Endereço"
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+										"data-uid": "src/components/home/LocationSection.tsx:25:19",
+										"data-prohibitions": "[]",
+										className: "text-slate-600 leading-relaxed",
+										children: [
+											"Praça Floriano Peixoto",
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {
+												"data-uid": "src/components/home/LocationSection.tsx:27:21",
+												"data-prohibitions": "[editContent]"
+											}),
+											"Centro, Belo Jardim - PE",
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {
+												"data-uid": "src/components/home/LocationSection.tsx:29:21",
+												"data-prohibitions": "[editContent]"
+											}),
+											"CEP: 55150-010"
+										]
+									})]
+								})]
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								"data-uid": "src/components/home/LocationSection.tsx:35:15",
+								"data-prohibitions": "[]",
+								className: "flex items-start gap-5",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									"data-uid": "src/components/home/LocationSection.tsx:36:17",
+									"data-prohibitions": "[]",
+									className: "bg-navy/10 p-3.5 rounded-xl text-navy mt-1",
+									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Clock, {
+										"data-uid": "src/components/home/LocationSection.tsx:37:19",
+										"data-prohibitions": "[editContent]",
+										className: "w-6 h-6"
+									})
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									"data-uid": "src/components/home/LocationSection.tsx:39:17",
+									"data-prohibitions": "[]",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+										"data-uid": "src/components/home/LocationSection.tsx:40:19",
+										"data-prohibitions": "[]",
+										className: "font-bold font-heading text-slate-900 text-lg mb-1",
+										children: "Horário de Funcionamento"
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+										"data-uid": "src/components/home/LocationSection.tsx:43:19",
+										"data-prohibitions": "[]",
+										className: "text-slate-600 leading-relaxed",
+										children: [
+											"Segunda a Sexta-feira",
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {
+												"data-uid": "src/components/home/LocationSection.tsx:45:21",
+												"data-prohibitions": "[editContent]"
+											}),
+											"08:00 às 17:00",
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {
+												"data-uid": "src/components/home/LocationSection.tsx:47:21",
+												"data-prohibitions": "[editContent]"
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+												"data-uid": "src/components/home/LocationSection.tsx:48:21",
+												"data-prohibitions": "[]",
+												className: "text-sm font-medium text-slate-500",
+												children: "(Sem intervalo para almoço)"
+											})
+										]
+									})]
+								})]
+							})]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+							"data-uid": "src/components/home/LocationSection.tsx:56:13",
 							"data-prohibitions": "[]",
-							className: "h-[400px] lg:h-[500px] rounded-3xl overflow-hidden shadow-2xl border-[6px] border-slate-50 relative",
-							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-								"data-uid": "src/pages/Index.tsx:238:15",
-								"data-prohibitions": "[editContent]",
-								src: "https://img.usecurling.com/p/800/800?q=map%20location%20pin&color=blue",
-								alt: "Mapa de Localização",
-								className: "w-full h-full object-cover"
+							size: "lg",
+							className: "mt-10 rounded-full text-base px-8 h-12 bg-navy text-white hover:bg-navy/90",
+							asChild: true,
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								"data-uid": "src/components/home/LocationSection.tsx:61:15",
+								"data-prohibitions": "[]",
+								href: "https://wa.me/5581999990000",
+								target: "_blank",
+								rel: "noopener noreferrer",
+								children: "Falar no WhatsApp"
 							})
-						})]
+						})
+					]
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					"data-uid": "src/components/home/LocationSection.tsx:67:11",
+					"data-prohibitions": "[]",
+					className: "h-[400px] lg:h-[500px] rounded-3xl overflow-hidden shadow-2xl border-[6px] border-slate-50 relative",
+					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+						"data-uid": "src/components/home/LocationSection.tsx:68:13",
+						"data-prohibitions": "[editContent]",
+						src: "https://img.usecurling.com/p/800/800?q=map%20location%20pin&color=blue",
+						alt: "Mapa de Localização",
+						className: "w-full h-full object-cover"
 					})
-				})
+				})]
+			})
+		})
+	});
+}
+//#endregion
+//#region src/pages/Index.tsx
+function Index() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+		"data-uid": "src/pages/Index.tsx:9:5",
+		"data-prohibitions": "[]",
+		className: "flex flex-col w-full",
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(HeroSection, {
+				"data-uid": "src/pages/Index.tsx:10:7",
+				"data-prohibitions": "[editContent]"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(AboutSection, {
+				"data-uid": "src/pages/Index.tsx:11:7",
+				"data-prohibitions": "[editContent]"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(IdentitySection, {
+				"data-uid": "src/pages/Index.tsx:12:7",
+				"data-prohibitions": "[editContent]"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ServicesSection, {
+				"data-uid": "src/pages/Index.tsx:13:7",
+				"data-prohibitions": "[editContent]"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(LocationSection, {
+				"data-uid": "src/pages/Index.tsx:14:7",
+				"data-prohibitions": "[editContent]"
 			})
 		]
 	});
@@ -23063,4 +23332,4 @@ function App() {
 }));
 //#endregion
 
-//# sourceMappingURL=index-bJrjfIRP.js.map
+//# sourceMappingURL=index-BvU0quIY.js.map
