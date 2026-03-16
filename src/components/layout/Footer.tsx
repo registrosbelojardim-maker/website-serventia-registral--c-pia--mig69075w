@@ -11,13 +11,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand & About */}
           <div className="space-y-6">
-            <div className="flex items-center gap-3 bg-white/5 p-3 rounded-lg w-fit">
-              <Logo className="w-14 h-14 brightness-0 invert opacity-90 rounded-md" />
+            <div className="flex items-center gap-4 bg-white/5 p-4 rounded-xl w-fit border border-white/10">
+              <Logo className="w-16 h-16 opacity-95" />
               <div className="flex flex-col">
-                <span className="font-bold text-white text-sm uppercase leading-tight">
+                <span className="font-bold text-white text-base uppercase leading-tight tracking-wider">
                   Serventia Registral
                 </span>
-                <span className="font-bold text-white text-sm uppercase leading-tight">
+                <span className="font-bold text-slate-300 text-sm uppercase leading-tight">
                   de Belo Jardim
                 </span>
               </div>
@@ -35,10 +35,9 @@ export function Footer() {
             <ul className="space-y-3">
               {[
                 { name: 'Página Inicial', path: '/' },
+                { name: 'Nossa Instituição', path: '/#sobre' },
                 { name: 'Nossos Serviços', path: '/servicos' },
-                { name: 'Tabela de Emolumentos', path: '/emolumentos' },
-                { name: 'Política de Privacidade', path: '/privacidade' },
-                { name: 'Contato e Agendamento', path: '/contato' },
+                { name: 'Localização e Contato', path: '/#localizacao' },
               ].map((link) => (
                 <li key={link.path}>
                   <Link
@@ -103,20 +102,6 @@ export function Footer() {
           <p className="text-xs text-slate-500 text-center md:text-left">
             © {currentYear} Serventia Registral de Belo Jardim. Todos os direitos reservados.
           </p>
-          <div className="flex gap-4">
-            <Link
-              to="/privacidade"
-              className="text-xs text-slate-500 hover:text-white transition-colors"
-            >
-              Política de Privacidade
-            </Link>
-            <Link
-              to="/termos"
-              className="text-xs text-slate-500 hover:text-white transition-colors"
-            >
-              Termos de Uso
-            </Link>
-          </div>
         </div>
       </div>
     </footer>

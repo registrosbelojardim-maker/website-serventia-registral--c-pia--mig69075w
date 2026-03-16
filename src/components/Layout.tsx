@@ -9,9 +9,9 @@ export function Layout() {
   return (
     <div className="flex flex-col min-h-screen font-sans antialiased bg-slate-50">
       <Header />
-      <div className="flex-1 mt-[105px] md:mt-[145px] lg:mt-[170px]">
+      <main className="flex-1 mt-[170px] sm:mt-[200px] md:mt-[230px] lg:mt-[250px]">
         <Outlet />
-      </div>
+      </main>
       <Footer />
       <WhatsAppChat />
       <Toaster />

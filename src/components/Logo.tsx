@@ -9,15 +9,15 @@ export function Logo({ className }: LogoProps) {
   return (
     <div
       className={cn(
-        'relative mix-blend-multiply flex-shrink-0 flex items-center justify-center',
+        'relative overflow-hidden flex-shrink-0 flex items-center justify-center rounded-full bg-white shadow-lg border-[3px] border-white',
         className,
       )}
     >
+      {/* Scaling the image inside an overflow-hidden container isolates the central icon and removes surrounding text */}
       <img
         src={logoImg}
-        alt="Emblema Oficial da Serventia Registral de Belo Jardim"
-        className="w-full h-full object-contain pointer-events-none"
-        style={{ aspectRatio: 'auto' }}
+        alt="Ícone Oficial da Serventia Registral de Belo Jardim"
+        className="w-full h-full object-cover scale-[1.65] object-center pointer-events-none mix-blend-multiply"
       />
     </div>
   )

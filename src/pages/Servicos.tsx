@@ -1,5 +1,4 @@
-import { Link } from 'react-router-dom'
-import { Building, FileText, BookOpen, ArrowRight, FileCheck, Search, Key } from 'lucide-react'
+import { Building, FileText, BookOpen, FileCheck } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 export default function Servicos() {
@@ -52,7 +51,7 @@ export default function Servicos() {
   ]
 
   return (
-    <div className="flex flex-col w-full pt-24 lg:pt-32">
+    <div className="flex flex-col w-full">
       {/* Page Header */}
       <section className="bg-slate-50 py-16 lg:py-24 border-b border-slate-200">
         <div className="container mx-auto px-4">
@@ -77,7 +76,9 @@ export default function Servicos() {
               <div
                 key={service.id}
                 id={service.id}
-                className={`flex flex-col ${index % 2 !== 0 ? 'lg:flex-row-reverse' : 'lg:flex-row'} gap-12 lg:gap-20 items-center scroll-mt-32`}
+                className={`flex flex-col ${
+                  index % 2 !== 0 ? 'lg:flex-row-reverse' : 'lg:flex-row'
+                } gap-12 lg:gap-20 items-center scroll-mt-32`}
               >
                 <div className="w-full lg:w-1/2">
                   <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary/10 text-primary mb-6">
@@ -88,15 +89,15 @@ export default function Servicos() {
                     {service.description}
                   </p>
 
-                  <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100">
-                    <h3 className="font-semibold text-slate-900 mb-4 uppercase text-sm tracking-wider">
+                  <div className="bg-slate-50 rounded-3xl p-8 border border-slate-100">
+                    <h3 className="font-semibold text-slate-900 mb-6 uppercase text-sm tracking-wider">
                       Principais Atos
                     </h3>
-                    <ul className="grid sm:grid-cols-2 gap-3">
+                    <ul className="grid sm:grid-cols-2 gap-4">
                       {service.features.map((feature, i) => (
-                        <li key={i} className="flex items-start gap-2 text-slate-600">
+                        <li key={i} className="flex items-start gap-3 text-slate-600">
                           <FileCheck className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-                          <span className="text-sm font-medium">{feature}</span>
+                          <span className="text-sm font-medium leading-tight">{feature}</span>
                         </li>
                       ))}
                     </ul>
@@ -104,19 +105,28 @@ export default function Servicos() {
                 </div>
 
                 <div className="w-full lg:w-1/2">
-                  <div className="relative rounded-2xl overflow-hidden shadow-lg aspect-[4/3]">
+                  <div className="relative rounded-3xl overflow-hidden shadow-xl aspect-[4/3] border-[6px] border-slate-50">
                     <img
-                      src={`https://img.usecurling.com/p/800/600?q=${encodeURIComponent(service.title.split(' ')[2] + ' office document')}&color=gray`}
+                      src={`https://img.usecurling.com/p/800/600?q=${encodeURIComponent(
+                        service.title.split(' ')[2] + ' office document',
+                      )}&color=gray`}
                       alt={service.title}
                       className="w-full h-full object-cover"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent flex flex-col justify-end p-8">
+                    <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/20 to-transparent flex flex-col justify-end p-8 md:p-10">
                       <Button
                         asChild
                         variant="default"
-                        className="w-fit bg-white text-slate-900 hover:bg-slate-100"
+                        size="lg"
+                        className="w-fit bg-white text-slate-900 hover:bg-slate-100 rounded-full font-semibold px-8"
                       >
-                        <Link to="/contato">Solicitar {service.title}</Link>
+                        <a
+                          href="https://wa.me/5581999990000"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Solicitar {service.title}
+                        </a>
                       </Button>
                     </div>
                   </div>
@@ -128,26 +138,25 @@ export default function Servicos() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-primary text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6">
+      <section className="py-24 bg-primary text-white text-center">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl lg:text-4xl font-bold mb-6 tracking-tight">
             Precisa de informações sobre custas ou certidões?
           </h2>
-          <p className="text-primary-foreground/80 text-lg mb-8 max-w-2xl mx-auto">
+          <p className="text-primary-foreground/80 text-lg mb-10 max-w-2xl mx-auto leading-relaxed">
             Nossa equipe está preparada para orientá-lo sobre procedimentos, documentação necessária
             e valores de emolumentos tabelados.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button size="lg" variant="secondary" className="rounded-full" asChild>
-              <Link to="/contato">Falar com Atendimento</Link>
-            </Button>
             <Button
               size="lg"
-              variant="outline"
-              className="rounded-full bg-transparent border-white text-white hover:bg-white/10"
+              variant="secondary"
+              className="rounded-full px-8 h-14 text-base"
               asChild
             >
-              <Link to="/emolumentos">Tabela de Emolumentos</Link>
+              <a href="https://wa.me/5581999990000" target="_blank" rel="noopener noreferrer">
+                Falar com Atendimento
+              </a>
             </Button>
           </div>
         </div>
